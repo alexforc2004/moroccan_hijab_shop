@@ -67,42 +67,54 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="hero-gradient py-20 md:py-32 animate-fade-in">
-        <div className="container mx-auto px-4 text-center">
-          <div className="flex items-center justify-center mb-6 animate-bounce-in">
-            <Sparkles className="h-8 w-8 text-primary mr-4" />
-            <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground text-balance">
-             Welcome To Hijab Elegance
-            </h1>
-            <Sparkles className="h-8 w-8 text-accent ml-4" />
-          </div>
-
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up">
-           وجهتك للعبايات الفاخرة والجودة المضمونة
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-bounce-in">
-            <Link href="/products">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-8 py-3 font-arabic transition-all duration-300 hover:scale-105"
-              >
-                <ShoppingBag className="h-5 w-5 ml-2" />
-                تسوقي الآن
-              </Button>
-            </Link>
-            <Link href="/contact">
-              <Button
-                variant="outline"
-                size="lg"
-                className="px-8 py-3 font-arabic border-2 hover:bg-primary/10 transition-all duration-300 hover:scale-105 bg-transparent"
-              >
-                <Heart className="h-5 w-5 ml-2" />
-                تواصلي معنا
-              </Button>
-            </Link>
-          </div>
+      <section className="hero-gradient min-h-screen flex flex-col justify-center items-center text-center py-20 md:py-32 relative">
+        <div className="mb-8 z-10">
+          <img
+            src="./images/hijab-elegance-logo.jpg"
+            alt="Hijab Elegance Logo"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mx-auto shadow-2xl border-4 border-white animate-bounce-in"
+          />
         </div>
+
+        {/* العنوان مع Sparkles */}
+        <div className="flex items-center justify-center mb-6 animate-bounce-in z-10">
+          <Sparkles className="h-8 w-8 text-primary mr-4" />
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground text-balance">
+            Welcome To Hijab Elegance
+          </h1>
+          <Sparkles className="h-8 w-8 text-accent ml-4" />
+        </div>
+
+        {/* الفقرة */}
+        <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up z-10">
+          وجهتك للعبايات الفاخرة والجودة المضمونة
+        </p>
+
+        {/* الأزرار */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-bounce-in z-10">
+          <Link href="/products">
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-8 py-3 font-arabic transition-all duration-300 hover:scale-105"
+            >
+              <ShoppingBag className="h-5 w-5 ml-2" />
+              تسوقي الآن
+            </Button>
+          </Link>
+          <Link href="/contact">
+            <Button
+              variant="outline"
+              size="lg"
+              className="px-8 py-3 font-arabic border-2 hover:bg-primary/10 transition-all duration-300 hover:scale-105 bg-transparent"
+            >
+              <Heart className="h-5 w-5 ml-2" />
+              تواصلي معنا
+            </Button>
+          </Link>
+        </div>
+
+        {/* overlay optional لتفتيح الصورة على الخلفية */}
+        <div className="absolute inset-0 bg-black/20 z-0"></div>
       </section>
 
       {/* Products Section */}
