@@ -138,8 +138,8 @@
 
 /* Custom Styles */
 .hero-gradient {
-  /* Updated gradient with new color scheme */
-  background: linear-gradient(135deg, oklch(0.98 0.02 350) 0%, oklch(0.95 0.05 220) 50%, oklch(0.97 0.03 140) 100%);
+  background: linear-gradient( 135deg,oklch(0.98 0.02 350) 0%,oklch(0.82 0.14 8.57 50%, oklch(0.97 0.03 140) 100%)
+    );
 }
 
 .product-card {
