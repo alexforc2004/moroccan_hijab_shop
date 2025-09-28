@@ -344,9 +344,9 @@ ${formData.message}
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="font-semibold mb-3 font-arabic">هل يمكنني استبدال المنتج؟</h3>
+                <h3 className="font-semibold mb-3 font-arabic">هل يمكن تبديل العباية ؟ </h3>
                 <p className="text-muted-foreground text-sm font-arabic">
-                  نعم، يمكنك استبدال المنتج خلال 7 أيام من الاستلام في حالة عدم الرضا
+                  نعم ، نقبل التبديل خلال 48 ساعة من استلام الطلب ، بشرط أن تبقى القطعة بحالتها الأصلية وغير مستعملة.
                 </p>
               </CardContent>
             </Card>
