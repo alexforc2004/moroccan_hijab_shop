@@ -70,7 +70,7 @@ export default function HomePage() {
       <section className="hero-gradient min-h-screen flex flex-col justify-center items-center text-center py-20 md:py-32 relative">
         <div className="mb-8 z-10">
           <img
-            src="./images/hijab-elegance-logo.jpg"
+            src="./public/log.png"
             alt="Hijab Elegance Logo"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mx-auto shadow-2xl border-4 border-white animate-bounce-in"
           />
