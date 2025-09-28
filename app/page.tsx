@@ -72,13 +72,13 @@ export default function HomePage() {
           <div className="flex items-center justify-center mb-6 animate-bounce-in">
             <Sparkles className="h-8 w-8 text-primary mr-4" />
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground text-balance">
-              Hijab Elegance
+             Welcome To Hijab Elegance
             </h1>
             <Sparkles className="h-8 w-8 text-accent ml-4" />
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up">
-            اكتشفي مجموعتنا الراقية من الحجابات العصرية والأنيقة التي تناسب جميع المناسبات
+           وجهتك للعبايات الفاخرة والجودة المضمونة
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-bounce-in">
