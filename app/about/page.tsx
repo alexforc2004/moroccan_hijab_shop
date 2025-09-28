@@ -10,17 +10,18 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <div className="bg-gradient-to-br from-purple-50 to-pink-50">
+         <div className="bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="container mx-auto px-4 py-12">
           {/* Hero Section */}
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-purple-100 text-purple-800 font-arabic">تأسست في 2025</Badge>
-            <h1 className="text-5xl font-bold text-gray-800 mb-6 font-arabic">حجاب إليجانس</h1>
+            <h1 className="text-5xl font-bold text-gray-800 mb-6 font-arabic">Hijab Elegance by Asma</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-arabic">
-              متجرك المتخصص في عالم الحجاب والأزياء المحتشمة، حيث نجمع بين الأناقة والجودة لنقدم لك أجمل التصاميم التي
-              تعكس شخصيتك المميزة
+             هو أكثر من مجرد متجر، هو شغف بالأناقة والذوق الرفيع.
+نؤمن أن المرأة المحجبة تستحق أن تجمع بين الحشمة والجمال، لذلك وفرنا لكِ تصاميم عبايات تجمع بين الجودة، الراحة، والفخامة، مع اهتمام خاص بكل التفاصيل من التغليف إلى خدمة ما بعد البيع
             </p>
           </div>
+
 
           {/* Mission Section */}
           <Card className="mb-12 bg-white/80 backdrop-blur-sm">
@@ -41,7 +42,7 @@ export default function AboutPage() {
               <CardContent className="p-6">
                 <Heart className="w-12 h-12 text-pink-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 font-arabic">صنع بحب</h3>
-                <p className="text-gray-600 font-arabic">كل قطعة مصنوعة بعناية فائقة وحب لتناسب ذوقك الرفيع</p>
+                <p className="text-gray-600 font-arabic">تغليف أنيق مع هدايا رمزية لكل زبونة</p>
               </CardContent>
             </Card>
 
@@ -49,7 +50,7 @@ export default function AboutPage() {
               <CardContent className="p-6">
                 <Shield className="w-12 h-12 text-blue-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 font-arabic">جودة مضمونة</h3>
-                <p className="text-gray-600 font-arabic">نستخدم أجود الخامات لضمان الراحة والمتانة</p>
+                <p className="text-gray-600 font-arabic">جودة مضمونة بتصاميم عصرية</p>
               </CardContent>
             </Card>
 
@@ -57,7 +58,7 @@ export default function AboutPage() {
               <CardContent className="p-6">
                 <Truck className="w-12 h-12 text-green-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 font-arabic">توصيل سريع</h3>
-                <p className="text-gray-600 font-arabic">توصيل مجاني في الرباط وتوصيل سريع لجميع أنحاء المغرب</p>
+                <p className="text-gray-600 font-arabic">توصيل سريع وآمن</p>
               </CardContent>
             </Card>
 
@@ -65,38 +66,9 @@ export default function AboutPage() {
               <CardContent className="p-6">
                 <Calendar className="w-12 h-12 text-purple-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2 font-arabic">تصاميم حديثة</h3>
-                <p className="text-gray-600 font-arabic">نواكب أحدث صيحات الموضة العالمية والمحلية</p>
+                <p className="text-gray-600 font-arabic">أثمنة مناسبة مقارنة بجودة القطع</p>
               </CardContent>
             </Card>
-          </div>
-
-          {/* Story Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-arabic">قصتنا</h2>
-              <div className="space-y-4 text-gray-700 font-arabic">
-                <p className="leading-relaxed">
-                  بدأت رحلتنا في عام 2025 برؤية واضحة: تقديم أجمل وأرقى أنواع الحجابات والأزياء المحتشمة للمرأة العربية.
-                  انطلقنا من إيماننا العميق بأن الأناقة والاحتشام يمكن أن يجتمعا في تناغم مثالي.
-                </p>
-                <p className="leading-relaxed">
-                  نحن فريق من المصممين والحرفيين المتخصصين الذين يعملون بشغف لابتكار تصاميم فريدة تعكس جمال وأناقة
-                  المرأة المسلمة المعاصرة.
-                </p>
-                <p className="leading-relaxed">
-                  اليوم، نفخر بخدمة آلاف العميلات في جميع أنحاء المنطقة، ونسعى دائماً لتطوير منتجاتنا وخدماتنا لنبقى في
-                  المقدمة.
-                </p>
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src="/elegant-hijab-store-interior-with-beautiful-displa.jpg"
-                alt="متجر حجاب إليجانس"
-                className="rounded-lg shadow-xl w-full"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
-            </div>
           </div>
 
           {/* Values Section */}
