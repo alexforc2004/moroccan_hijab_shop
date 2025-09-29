@@ -75,16 +75,7 @@ export default function HomePage() {
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mx-auto shadow-2xl border-4 border-white animate-bounce-in"
           />
         </div>
-
-        {/* العنوان مع Sparkles */}
-        <div className="flex items-center justify-center mb-6 animate-bounce-in z-10">
-          <Sparkles className="h-8 w-8 text-primary mr-4" />
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground text-balance">
-            
-          </h1>
-          <Sparkles className="h-8 w-8 text-accent ml-4" />
-        </div>
-
+        
         {/* الفقرة */}
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up z-10">
           وجهتك للعبايات الفاخرة والجودة المضمونة
