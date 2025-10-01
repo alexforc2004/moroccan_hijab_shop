@@ -77,9 +77,9 @@ export default function HomePage() {
   />
 </div>
   {/* الفقرة */}
-  <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up z-10">
-    وجهتك للعبايات الفاخرة والجودة المضمونة
-  </p>
+ <p className="text-lg md:text-xl text-black mb-8 max-w-2xl mx-auto text-pretty font-arabic animate-slide-up z-10">
+  وجهتك للعبايات الفاخرة والجودة المضمونة
+</p>
 
   {/* الأزرار */}
   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-bounce-in z-10">
