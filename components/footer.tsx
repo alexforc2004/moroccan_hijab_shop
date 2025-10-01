@@ -5,7 +5,7 @@ import { Facebook, Instagram, MessageCircle } from "lucide-react"
 export default function Footer() {
   const openWhatsApp = () => {
     const whatsappNumber = "0601449135"
-    const message = encodeURIComponent("مرحباً أسما، أريد التواصل معك بخصوص أناقة الحجاب 🌸")
+    const message = encodeURIComponent("مرحباً أسما، أريد التواصل معك بخصوص Hijab Elegance 🌸")
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`
     window.open(whatsappUrl, "_blank")
   }
@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center md:text-right animate-fade-in">
-            <h3 className="font-serif text-2xl font-bold mb-4">أناقة الحجاب</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Hijab Elegance</h3>
             <p className="text-white/90 font-arabic">متجرك المفضل للحجابات الأنيقة والعصرية</p>
           </div>
           <div className="text-center animate-slide-up">
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p className="text-white/80 font-arabic">© 2025 أناقة الحجاب BY ASMA. جميع الحقوق محفوظة.</p>
+          <p className="text-white/80 font-arabic">© 2025 HIJAB ELEGANCE BY ASMA. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
