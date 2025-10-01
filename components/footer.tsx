@@ -11,11 +11,11 @@ export default function Footer() {
   }
 
   const openFacebook = () => {
-    window.open("https://facebook.com/hijabelegance", "_blank")
+    window.open("https://www.facebook.com/share/1BC12YQ7ad/", "_blank")
   }
 
   const openInstagram = () => {
-    window.open("https://instagram.com/hijabelegance", "_blank")
+    window.open("https://www.instagram.com/hijab.elegance.by.asma?igsh=MWJlbDRydmRpejdreg==", "_blank")
   }
 
   return (
